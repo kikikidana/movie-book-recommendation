@@ -1,0 +1,34 @@
+{
+  "name": "movie-book-recommendation-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI-based Movie & Book Recommendation Service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "recommendation",
+    "movie",
+    "book",
+    "AI"
+  ],
+  "author": "kikikidana",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "cors": "^2.8.5",
+    "validator": "^13.9.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
